@@ -61,10 +61,10 @@ export default {
             </div>
         </div>
         <div class="container mt-sm-5 mt-3">
-            <div v-for="({ heading, description, items }, index) in data"
+            <div v-for="({ heading, idHtml, description, items }, index) in data"
                 :class="`row ${index != 0 && index != -1 ? 'pt-lg-6' : ''}`" :key="heading">
                 <div :class="`${col1 ?? 'col-lg-3'}`">
-                    <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
+                    <div :id="idHtml" class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
                         <h3>{{ heading }}</h3>
                         <h6 class="text-secondary font-weight-normal pe-3">
                             {{ description }}

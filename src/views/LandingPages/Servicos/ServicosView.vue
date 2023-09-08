@@ -2,7 +2,7 @@
 //example components
 import NavbarDefault from '../../../examples/navbars/NavbarDefault.vue';
 import Header from '../../../examples/Header.vue';
-import FilledInfoCard from '../../../examples/cards/infoCards/FilledInfoCard.vue';
+// import FilledInfoCard from '../../../examples/cards/infoCards/FilledInfoCard.vue';
 import MaterialBadge from '../../../components/MaterialBadge.vue'
 import ExampleCard from '../../Presentation/Components/ExampleCard.vue';
 import servicosData from "../Servicos/Sections/Data/servicosData";
@@ -18,7 +18,7 @@ import servicosData from "../Servicos/Sections/Data/servicosData";
     </div>
     <Header title="Tratamentos Faciais" minHeight="min-vh-50" />
     <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 shadow-lg">
-        <div class="container mt-sm-4">
+        <!-- <div class="container mt-sm-4">
             <div class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl min-vh-70" loading="lazy">
                 <span class="mask bg-gradient-dark ">
                     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/GXamfJuvkOs"
@@ -27,9 +27,9 @@ import servicosData from "../Servicos/Sections/Data/servicosData";
                         allowfullscreen></iframe>
                 </span>
             </div>
-        </div>
+        </div> -->
 
-        <div class="container">
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-lg-4">
                     <FilledInfoCard class="p-4" :color="{ text: 'white', background: 'bg-gradient-primary' }"
@@ -60,7 +60,7 @@ import servicosData from "../Servicos/Sections/Data/servicosData";
                 }" />
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- <div class="container">
             <div class="row">
                 <div class="row text-center my-sm-5 mt-5">
